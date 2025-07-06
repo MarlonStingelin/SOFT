@@ -1,5 +1,5 @@
 from typing import Dict
-# from abstracoes import IPecaPrototipo # (Em arquivo separado)
+from abstracoes import IPecaPrototipo 
 
 class GerenciadorDePrototipos:
     """cópias de peças"""
