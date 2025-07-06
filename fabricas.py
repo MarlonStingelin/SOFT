@@ -1,5 +1,5 @@
-# from abstracoes import IFabricaEstilos, IEncaixe # (Em arquivo separado)
-# from componentes import Entrada, Saida # (Em arquivo separado)
+from abstracoes import IFabricaEstilos, IEncaixe 
+from componentes import Entrada, Saida 
 
 class FabricaEstiloConcreta(IFabricaEstilos):
     def __init__(self, estilo_id: int):
