@@ -1,5 +1,5 @@
 import copy
-# from abstracoes import IEncaixe, IPecaPrototipo # (Em arquivo separado)
+from abstracoes import IEncaixe, IPecaPrototipo 
 
 class BordaReta(IEncaixe):
     def get_tipo_id(self) -> int:
