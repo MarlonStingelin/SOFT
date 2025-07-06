@@ -1,9 +1,9 @@
 import random
 from typing import List
-# from abstracoes import IFabricaEstilos # (Em arquivo separado)
-# from fabricas import FabricaEstiloConcreta # (Em arquivo separado)
-# from gerenciador import GerenciadorDePrototipos # (Em arquivo separado)
-# from componentes import Peca, BordaReta, Entrada, Saida, IEncaixe # (Em arquivo separado)
+from abstracoes import IFabricaEstilos
+from fabricas import FabricaEstiloConcreta 
+from gerenciador import GerenciadorDePrototipos 
+from componentes import Peca, BordaReta, Entrada, Saida, IEncaixe 
 
 class GeradorQuebraCabeca:
 
