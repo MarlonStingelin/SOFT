@@ -1,4 +1,4 @@
-# from orquestrador import GeradorQuebraCabeca # (Em arquivo separado)
+from orquestrador import GeradorQuebraCabeca 
 
 def main():
     print("--- Gerador de Formato de Quebra-Cabeça ---")
