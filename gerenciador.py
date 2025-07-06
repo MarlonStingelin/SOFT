@@ -2,7 +2,7 @@ from typing import Dict
 from abstracoes import IPecaPrototipo 
 
 class GerenciadorDePrototipos:
-    """cópias de peças"""
+    #cópias de peças
     def __init__(self):
         self._prototipos: Dict[str, IPecaPrototipo] = {}
 
